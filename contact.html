@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Brad Freeman, Clinical Psychologist</title>
+  <meta name="description" content="Contact Brad Freeman, psychoanalytic psychotherapist and clinical psychologist, Hobart, Tasmania. Consultations by negotiation, in private practice and by telehealth.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Spectral:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="banner" role="img" aria-label="A coastal mountain at dawn, wrapped in low fog above dark water"></div>
+
+  <header class="masthead">
+    <h1>Brad Freeman</h1>
+    <p class="descriptor">Clinical Psychologist</p>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="writing.html">Writing</a></li>
+        <li><a href="reading.html">Reading</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr class="horizon">
+
+  <main>
+    <div class="contact-block">
+      <p>Consultations are by negotiation, in private practice and by telehealth, Australia-wide.</p>
+      <p>Hobart, Tasmania.</p>
+      <p id="email-line">Email: <span id="email-here"><noscript>bradfreeman at westnet dot com dot au</noscript></span></p>
+    </div>
+  </main>
+
+  <footer>
+    <hr class="horizon">
+    <p>&copy; 2026 Brad Freeman &middot; Hobart, Tasmania</p>
+  </footer>
+
+  <script>
+    (function () {
+      var u = 'bradfreeman';
+      var d = 'westnet.com.au';
+      var addr = u + '\u0040' + d;
+      var a = document.createElement('a');
+      a.href = 'mailto:' + addr;
+      a.textContent = addr;
+      document.getElementById('email-here').appendChild(a);
+    })();
+  </script>
+
+</body>
+</html>
