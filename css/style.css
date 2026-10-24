@@ -29,12 +29,12 @@ body {
 
 .banner {
   position: relative;
-  height: 38vh;
+  height: 28vw;
   min-height: 240px;
-  max-height: 420px;
+  max-height: 600px;
   background-image: url('../images/coast.jpg');
   background-size: cover;
-  background-position: center 35%;
+  background-position: center 45%;
 }
 
 .banner::after {
@@ -43,8 +43,8 @@ body {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(247, 244, 232, 0) 55%,
-    rgba(247, 244, 232, 0.55) 82%,
+    rgba(247, 244, 232, 0) 74%,
+    rgba(247, 244, 232, 0.5) 91%,
     var(--paper) 100%
   );
 }
